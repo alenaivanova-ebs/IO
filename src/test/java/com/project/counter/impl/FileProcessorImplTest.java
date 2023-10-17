@@ -18,7 +18,6 @@ final class FileProcessorImplTest {
     private static Stream<Arguments> testProcessInputProvider() {
         return Stream.of(
                 Arguments.of("input_1.txt",  "output_1.csv")
-
         );
     }
     @ParameterizedTest
