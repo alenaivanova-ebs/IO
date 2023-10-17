@@ -10,13 +10,12 @@ import java.util.ServiceLoader;
 public class Main {
 
     public static void main(String[] args) throws  FileProcessException {
-//        if (args.length != 1) {
-//            System.err.printf("Usage:%n  java -jar  application.jar <fileName> %n");
-//            System.exit(1);
-//        }
+        if (args.length != 1) {
+            System.err.printf("Usage:%n  java -jar  application.jar <fileName> %n");
+            System.exit(1);
+        }
 
-        //String fileName = args[0];
-        String fileName = "input.txt";
+        String fileName = args[0];
         process(fileName);
 
     }
